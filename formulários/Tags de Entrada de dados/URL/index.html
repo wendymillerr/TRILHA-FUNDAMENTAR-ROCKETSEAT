@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL</title>
+</head>
+<body>
+    <!--
+        #Atributos
+
+        -placeholder
+        -readonly / disabled
+        -value
+
+        -required
+        -minlenght / maxlenght
+
+        -size
+        -pattern
+            * exemplo: 
+            patern = ".*\.com\.br\/.*"
+        -list
+            * o id de uma tag <datalist> que está no mesmo documento
+        -spellcheck
+            * Habilitar a verificação ortográfica para este input
+            * se false, n habilita, se true habilita
+    -->
+    <form action="">
+        <input type="url"
+        placeholder="http://example.com"
+        required
+        minlength="8"
+        title="somente domínios .com.br serão aceitos"
+        >
+        <button type="submit">enviar</button>
+    </form>
+    
+</body>
+</html>
