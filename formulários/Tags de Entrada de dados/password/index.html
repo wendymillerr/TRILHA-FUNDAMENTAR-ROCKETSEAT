@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>password</title>
+</head>
+<body>
+    <!--
+        #ATRIBUTOS
+
+        -minlenght / maxlenght
+            *O número minimo e ou maximo de caracteres
+        -size
+            *O numero aceitavel de caracteres que esse campo deverá conter
+        -pattern
+            * Expressão regular para validar o que está sendo digitado no campo
+            * Recomendado o uso de um padrão de egurança alta de senhas
+        -diseable
+        -required
+        -inputmode
+            *poderá alterar o suo do teclado em smartphones
+        -autocomplete
+            * on: permite a sugestão de: new-password ou current-password
+            * off: desabilita a opção de autocompletar
+            * new-password: o navegador poderá sugerir uma nova senha
+    -->
+
+    <form action="">
+        <input type="password"
+        autocomplete = "on"
+        minlenght = "4"
+        size = "8"
+        placeholder="coloque sua senha">
+        <title>"Coloque HEX no min 4 caracteres e no max 8 caracteres"</title>
+        <button type="submit">enviar</button>
+    </form>
+</body>
+</html>
