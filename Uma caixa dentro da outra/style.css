@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+div, section{
+    width: 100px;
+    height: 100px;
+
+    margin: 20% auto;
+    border: 10px solid red;
+    box-sizing: border-box;/*é com o widht agora, n ultrapassa 100px*/
+    border-top: dotted green 4px;
+}
