@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>search</title>
+</head>
+<body>
+    <!--input type = "search"
+    - Para campos de busca
+    - É igual ao campo do tipo "text" mas poderá ser um pouco diferente dependendo do user agent
+
+    #ATTRIBUTOS
+    -list / <datalist>
+    -pattern
+    -aria-label // opção qnd n tem o label
+    
+    -->
+    <datalist id="searchterms">
+        <option>Mac</option>
+        <option>Win</option>
+        <option>Linux</option>
+    </datalist>
+    <form action="">
+        
+        <input type="search" name="q" list="searchterms"
+        placeholder="Digite seu termo de busca" size="29"
+        aria-label="Campo de pesquisa">
+        <button>Search</button>
+    </form>
+
+</body>
+</html>
