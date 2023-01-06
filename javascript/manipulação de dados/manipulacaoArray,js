@@ -1,3 +1,4 @@
+let array
 array.push() // coloca no final
 array.unshift()// coloca no começo
 array.pop() // remove do fim
@@ -6,5 +7,5 @@ console.log(techs.slice(1, 2)) // pegar somente alguns elementos do array
 //encontrar a posição de um elemento no array
 //não causa modificação
 array.splice(1, 2)//remover 1 ou mais itens em qualquer posição do array
-let index = techs.indexOf('elementoprocurado')
+let index = techs.indexOf('elemento procurado')
 array.splice(index, 1)
