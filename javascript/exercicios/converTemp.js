@@ -1,5 +1,5 @@
 
-/*let temp = prompt('informe os graus e a temp ')
+let temp = prompt('informe os graus e a temp ')
 checkString(temp);
  function checkString(){
     const CeslsiusExist = temp.toUpperCase().includes('C');
@@ -24,4 +24,4 @@ function celsiusToFahrenheit(C){
 function fahrenheitToCelsius(F){
    let  C = (F - 32) * 5/9 
    console.log(C + 'C')
-}*/
+}
