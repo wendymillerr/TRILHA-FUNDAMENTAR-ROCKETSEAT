@@ -63,17 +63,17 @@ function countAuthors(){
     }
 console.log("total de autores: " + authors.length);
 }
-function booksByAuthor(){
+function booksByAuthor(nome){
    let booksOfAuthor = [];
    for (let category of booksByCategory){
-      /* for (let book of category.books){
-           if ()
-       }*/
+       for (let book of category.books){
+          // if (){}
+       }
    }
 }
 
 countAuthors();
-
+let index = techs.indexOf('elemento procurado')
 
 
 
