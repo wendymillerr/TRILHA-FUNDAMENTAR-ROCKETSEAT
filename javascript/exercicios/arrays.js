@@ -63,17 +63,23 @@ function countAuthors(){
     }
 console.log("total de autores: " + authors.length);
 }
+
 function booksByAuthor(nome){
    let booksOfAuthor = [];
    for (let category of booksByCategory){
        for (let book of category.books){
-          // if (){}
+           if (String(book.author) == nome){
+               booksOfAuthor.push(book.title)
+           }
        }
    }
+   console.log('estes são os livros de ' + nome + ' encontrado(s): ')
+   console.log(booksOfAuthor)
 }
 
 countAuthors();
-let index = techs.indexOf('elemento procurado')
+booksByAuthor('Augusto Cury');
+
 
 
 
