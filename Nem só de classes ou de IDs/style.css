@@ -1,7 +1,18 @@
 body article h2 {
     color: red;
 }
-
+/*CHILD COMBINATOR*/
 body > ul > li {
     color: blue;
+    /*se o ul nao tiver solto no meio do body, nao funciona, se por ex tiver dentro de uma div dentro do body*/
+}
+/*Sibling combinator*/
+h1 + p{
+    color: red;
+}
+
+/*Adjacent Sibling combinator*/
+/*serve mt para coisas seguidas, que sao da mesma familia*/
+button + button {
+    margin-left: 32px;
 }
