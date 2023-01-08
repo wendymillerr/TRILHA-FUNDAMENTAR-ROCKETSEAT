@@ -1,0 +1,11 @@
+li::before{
+    content: "";/*Precisa dessa referencia*/
+    width: 10px;
+    height: 1px;
+    background-color: blue;
+    position: absolute;
+}
+
+p:nth-last-of-type(2)::first-line{
+    font-weight: bold;
+}

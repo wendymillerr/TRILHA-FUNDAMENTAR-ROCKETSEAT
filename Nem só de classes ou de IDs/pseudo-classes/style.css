@@ -1,0 +1,8 @@
+ul li:first-child{
+    /*Vai para o primeiro filho, este tem que ser obrigatoriamente li para funcionar*/
+    color: red;
+}
+/*Aqui eu posso escolher quais  eu quero*/
+article p:nth-of-type(3){
+    font-weight: bold;
+}

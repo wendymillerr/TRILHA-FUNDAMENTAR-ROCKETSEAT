@@ -1,0 +1,11 @@
+input:focus{
+    border-color: blue;
+    
+}
+input{
+    border: 20px solid black;
+}
+
+a:hover{
+    color: red;
+}
