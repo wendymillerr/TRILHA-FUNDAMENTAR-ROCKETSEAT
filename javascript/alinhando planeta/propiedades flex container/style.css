@@ -1,0 +1,10 @@
+.box{
+    display: flex;
+    flex-wrap: wrap; /*TENTAR CRIAR NOVAS LINHAS, MAS SÓ SE FOR NECESSÁRIO. CRIA UM NOVO EIXO SEMPRE QUE O AMBIENTE MUDA*/
+    border: 1px dashed red;
+    justify-content: center;
+}
+
+.box div{
+    border: 1px solid;
+}
