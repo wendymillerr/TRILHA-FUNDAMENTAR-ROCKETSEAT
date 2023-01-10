@@ -1,0 +1,9 @@
+.box{
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid red;
+}
+
+.box div{
+    border: 1px solid;
+}
