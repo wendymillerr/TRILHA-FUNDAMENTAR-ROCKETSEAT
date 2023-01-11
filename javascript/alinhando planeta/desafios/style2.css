@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    gap: 1rem;
+}
+
+aside, main{
+border: 1px solid black;
+height: 100vh;
+}
+
+aside{
+    background-color: aliceblue;
+    flex-basis: 25%;
+}
+
+main{
+    background-color: cornflowerblue;
+    flex: 1;
+}
