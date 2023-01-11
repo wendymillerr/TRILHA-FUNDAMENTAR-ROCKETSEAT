@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+}
+
+.container{
+    font-weight: bold;
+    display: flex;
+    padding: 4rem;
+    background-color: cadetblue;
+}
+
+nav{
+    font-weight: 100;
+    display: flex;
+    justify-content: space-between;
+    
+    border: 1px solid red;
+    /*height: 80vh;*/
+}
+
+.option{
+    display: flex;
+    gap: 8rem;
+    background-color: blue;
+}
