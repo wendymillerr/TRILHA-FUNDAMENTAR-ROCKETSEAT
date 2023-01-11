@@ -7,19 +7,28 @@
     display: flex;
     padding: 4rem;
     background-color: cadetblue;
-}
+    justify-content: space-between;
+    align-items: center;
+}   
 
 nav{
     font-weight: 100;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
     
     border: 1px solid red;
     /*height: 80vh;*/
+    gap: .8rem;
 }
 
-.option{
+nav div{
     display: flex;
-    gap: 8rem;
+    gap: .8rem;
+    
+}
+
+nav div:last-child{
     background-color: blue;
+    color: white;
+    padding: .8rem;
 }
