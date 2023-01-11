@@ -16,18 +16,18 @@ main{
     display: flex;
     flex-direction: column;
 }
-
+/*BASIS TEM PRIORIDADE NO TAMANHO DAS CAIXAS*/
 main section:nth-child(1){
     background-color: lightgoldenrodyellow;
-    flex: 2;
+    flex: 0 0 100PX;/*não vai se diminuir, não vai se encaixar, mas pega o tamanho*/
 }
 
 main section:nth-child(2){
     background-color: lightsalmon;
-    flex: 0 80px;/*não flexivel*/
+    flex: 0 80px;/*não flexivel, shrink ta habilitado aqui*/
 }
 
 main section:nth-child(3){
     background-color: lightpink;
-    flex: 1;
+    flex: 1;/*flexivel, significa que está pegando uma fração do que sobrou*/
 }
