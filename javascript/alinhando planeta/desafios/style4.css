@@ -1,11 +1,19 @@
-.container{
-    height: 100vh;
+body{
+    background-color: blue;
+    display: flex;
+    min-height: 100vh;
+    
 }
 
 
 footer{
-    display: flex;
+   
+    margin-top: auto;/*vai para baixo*/
+   display: flex;
+   flex: 1;
    background-color: lightslategray;
-    flex-direction: column-reverse;
-    height: 8rem;
+   align-items: center;
+   height: 8rem;
+   justify-content: center;
+    
 }
