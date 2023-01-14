@@ -7,3 +7,8 @@ console.log(el.childNodes)
 //lastchild 
 //lastElementChild
 //children vem com html colection
+
+
+//#BSUCANDO IRMAOS
+//nextSibling é o irmão
+//nextElementSibling é o outro
