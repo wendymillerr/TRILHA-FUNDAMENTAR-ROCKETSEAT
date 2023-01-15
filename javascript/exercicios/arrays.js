@@ -8,7 +8,7 @@ const booksByCategory = [
                 author: "T. Harv Eker ",
             },
             {
-                title: "O homem mais rico da Babilônia",
+                title: "O homem mais rico da Babilônia ",
                 author: "George S. Clason ",
             },
             {
