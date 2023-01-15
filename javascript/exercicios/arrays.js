@@ -9,7 +9,7 @@ const booksByCategory = [
             },
             {
                 title: "O homem mais rico da Babilônia",
-                author: "George S. Clason",
+                author: "George S. Clason ",
             },
             {
                 title: "Pai rico, pai pobre",
