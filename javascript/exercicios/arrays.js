@@ -12,7 +12,7 @@ const booksByCategory = [
                 author: "George S. Clason ",
             },
             {
-                title: "Pai rico, pai pobre",
+                title: "Pai rico, pai pobre ",
                 author: "Robert T. Kiyosaki e Sharon L. Lechter",
             },
         ],
