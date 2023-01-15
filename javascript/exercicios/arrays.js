@@ -5,7 +5,7 @@ const booksByCategory = [
         books: [
             {
                 title: "Os segredos da mente milionária",
-                author: "T. Harv Eker",
+                author: "T. Harv Eker ",
             },
             {
                 title: "O homem mais rico da Babilônia",
