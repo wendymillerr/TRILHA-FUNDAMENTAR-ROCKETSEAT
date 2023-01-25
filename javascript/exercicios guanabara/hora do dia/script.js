@@ -5,15 +5,12 @@ function load(){
     var hour = date.getHours();
     var minute = date.getMinutes();
     msg.innerHTML = `Agora são ${hour} horas e ${minute} minutos`;
-    
-    if(hour >= 0 && hout < 12){
-        img.innerHTML = '<img src="manha.jpg">'
+    if(hour >= 0 && hour < 12){
+        img.innerHTML = '<img src="imagem/manha.jpg">'
     } else if(hour >= 12 && hour < 18){
-        img.innerHTML = '<img src="tarde.jpg">'
+        img.innerHTML = '<img src="imagem/tarde.jpg">'
     } else {
-        img.innerHTML = '<img src="noite.jpg">'
+        img.innerHTML = '<img src="imagem/noite.jpg">'
     }
 
 }
-
-
