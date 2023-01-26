@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saltos contínuos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Vamos contar</h1>
+    </header>
+    <section>
+        <div>
+            <p>Início: <span><input type="number" placeholder="digite um número..." name="firstnumber"  id="inicio"></span></p>
+        </div>
+        <div >
+            <p>Fim: <span><input type="number" placeholder="digite um número..." name="secondnumber" id="fim"></span></p>
+        </div>
+        <div>
+            <p>Passo: <span><input type="number"  id="jump" name="passo" placeholder="digite o salto..."></span></p>
+          
+            <button type="submit" value="countJump" onclick="countJump()">Enviar</button>
+            <p id="count">Contando: </p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Curso em vídeo </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
