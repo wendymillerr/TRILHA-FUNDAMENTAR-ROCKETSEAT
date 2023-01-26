@@ -7,7 +7,7 @@
     <title>Saltos contínuos</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onload="count()">
     <header>
         <h1>Vamos contar</h1>
     </header>
@@ -21,7 +21,7 @@
         <div>
             <p>Passo: <span><input type="number"  id="jump" name="passo" placeholder="digite o salto..."></span></p>
           
-            <button type="submit" value="countJump" onclick="countJump()">Enviar</button>
+            <p><input type="button" value="contar" onclick= "contar()" ></p>
             <p id="count">Contando: </p>
         </div>
     </section>

@@ -1,6 +1,6 @@
-function countJump(){
+function contar(){
     console.log('entrou')
-    var inicio = document.getElementById('inicio')
+    /*var inicio = document.getElementById('inicio')
     var fim = document.getElementById('fim')
     var jump = document.getElementById('passo')
     var count = document.getElementById('count')
@@ -16,5 +16,5 @@ function countJump(){
         console.log('entrou aqui')
         count.innerHTML = 'acabou'
         
-    }
+    }*/
 }
