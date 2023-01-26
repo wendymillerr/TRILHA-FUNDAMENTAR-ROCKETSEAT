@@ -1,20 +1,22 @@
 function contar(){
-    console.log('entrou')
-    /*var inicio = document.getElementById('inicio')
-    var fim = document.getElementById('fim')
-    var jump = document.getElementById('passo')
-    var count = document.getElementById('count')
-    for(var i = 0; i < fim.value; i++){
-        var result = 0;
-        result = inicio + jump;
-        if(inicio == fim || inicio > fim){
-            window.alert('Erro! dados inválidos')
-        }
-        if(result > fim.value){
-            return 
-        }
-        console.log('entrou aqui')
-        count.innerHTML = 'acabou'
-        
-    }*/
+   
+    let inicio = document.getElementById('inicio')
+    let fim = document.getElementById('fim')
+    let jump = document.getElementById('passo')
+    let count = document.getElementById('count')
+    //count.innerHTML = 'troquei'
+   if(inicio.value.length == 0 || fim.value.length == 0 || jump.value.length == 0){
+    window.alert('[ERRO] faltam dados!')
+   }else {
+    count.innerHTML = 'Contando...'
+    let i = Number(inicio.value)
+    let f = Number(fim.value)
+    let j = Number(jump.value)
+
+    for(let c = i; c <= f; c += p ){
+        count.innerHTML = `${c} \u{1F603}`
+    }
+
+   }
+
 }
