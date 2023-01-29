@@ -1,0 +1,40 @@
+#container{
+    height: 300px;
+    width: 500px;
+    margin: auto;
+    background-color: #a69dea;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.603);
+}
+
+header{
+    text-align: center;
+    color: #e7d7ed;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.445);
+}
+
+body{
+    background-color: #625d98;
+}
+
+select{
+    margin: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.603);
+    border-radius: 3px
+}
+p{
+    font-weight: bolder;
+    padding: 10px;
+    
+}
+
+button:hover{
+    background-color: gray;
+    font-weight: bold;
+}
+
+button:nth-child(3){
+    display: block;
+    margin: 10px;
+    
+}
