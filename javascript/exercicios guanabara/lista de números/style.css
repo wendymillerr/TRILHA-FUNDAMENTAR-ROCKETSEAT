@@ -1,5 +1,5 @@
 #container{
-    height: 300px;
+    height: 400px;
     width: 500px;
     margin: auto;
     background-color: #a69dea;
@@ -37,4 +37,8 @@ button:nth-child(3){
     display: block;
     margin: 10px;
     
+}
+
+#paragrafos{
+    display: inline-block;
 }
