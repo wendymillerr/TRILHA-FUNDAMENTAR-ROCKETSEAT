@@ -35,7 +35,7 @@ header{
 }
 
 
-/*#screen{
+#screen{
     margin: auto;
     height: 80px;
     width: 90%;
@@ -43,7 +43,7 @@ header{
     border-radius: 5px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.493);
     background-color: #ffffb2;
-}*/
+}
 
 #numbers{
     display: flex;
