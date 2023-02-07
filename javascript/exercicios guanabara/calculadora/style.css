@@ -22,10 +22,8 @@ header{
 }
 
 .box{
-
-    margin-top: 50px;
     display: flex;
-    flex-direction: column;
+    margin-top: 50px;
     background-color: #005f36;
     width: 350px;
     height: 450px;
@@ -33,12 +31,15 @@ header{
     border-radius: 10px;
     
 }
+.box div:nth-child()
 
 
 #screen{
+    display: flex;
+    padding: auto;
     margin: auto;
     height: 80px;
-    width: 90%;
+    width: 80px;
     margin-top: 2.5rem;
     border-radius: 5px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.493);
@@ -47,17 +48,18 @@ header{
 
 #numbers{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    
 }
 
 .number{
     border: 1px solid black;
     background-color:#00cca9 ;
-    height: 50px;
-    display: flex;
+    height: 10px;
     padding: 10px;
-    align-items: center;
-    flex-basis: 50px;
     
+}
+
+.lateral div{
+    background-color: antiquewhite;
+    flex: 3;
 }
